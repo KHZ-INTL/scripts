@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script randomly select one item from photo collections defined in Splash configuration file and passes it to splash download a photo from that collection.
+# This script randomly select one item from photo collections defined in Splash configuration file and passes it to splash to download a photo from that collection.
 
 # Get a random collection by ID
 # grep "id" ~/.config/splash-cli-nodejs/config.json | awk ':' '{print $2}' | shuf -n 1
